@@ -1,12 +1,11 @@
-// import solution from "./N으로_표현.js"
-// import solution from "./정수_삼각형.js"
-// import solution from "./등굣길.js"
+import { readFileSync } from 'fs';
+const data = readFileSync('example', 'utf8');
+let input = data.split(" ")
+console.log(input[0] + input[1]) 
 
-
-function main(){
-    // console.log(solution(5,12))
-    // console.log(solution([[7], [3, 8], [8, 1, 0], [2, 7, 4, 4], [4, 5, 2, 6, 5]]))
-    // console.log(solution(4, 3, [[2,2]]))
-    return
-}
-main()
+// 업로드용 es6 -> es5 변환기 돌려야함
+// import { readFileSync } from 'fs';
+// const data = readFileSync('/dev/stdin', 'utf8');
+// let input = data.split(" ")
+// console.log(input[0] + input[1]) 
+// 업로드용
